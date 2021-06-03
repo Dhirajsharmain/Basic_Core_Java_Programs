@@ -7,23 +7,23 @@ public class Quadratic {
         int a, b, c;
         double delta;
 
-        double equation1,equation2;
+        double equation1, equation2;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter value for a : ");
-        a=scanner.nextInt();
+        a = scanner.nextInt();
         System.out.print("Enter value for b : ");
-        b=scanner.nextInt();
+        b = scanner.nextInt();
         System.out.print("Enter va3lue for c : ");
-        c=scanner.nextInt();
+        c = scanner.nextInt();
 
         //now we are going to find delta
-        delta= FindDelta(a,b,c);
+        delta = FindDelta(a, b, c);
 
-        equation1= QuadraticEquation1(a,b,delta);
-        equation2= QuadraticEquation2(a,b,delta);
+        equation1 = QuadraticEquation1(a, b, delta);
+        equation2 = QuadraticEquation2(a, b, delta);
 
-        System.out.println("Root 1 is : "+equation1);
-        System.out.println("Root 2 is : "+equation2);
+        System.out.println("Root 1 is : " + equation1);
+        System.out.println("Root 2 is : " + equation2);
 
         scanner.close();
     }
