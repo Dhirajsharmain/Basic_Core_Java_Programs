@@ -3,6 +3,7 @@ package bridgelabz;
 import java.util.Scanner;
 
 public class QuotientAndRemainder {
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
